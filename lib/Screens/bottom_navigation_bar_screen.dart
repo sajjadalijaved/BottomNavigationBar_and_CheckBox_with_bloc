@@ -59,6 +59,7 @@ class ExplorePage extends StatelessWidget {
         } else {
           return Scaffold(
             backgroundColor: ColorsClass.appBackGroundColor,
+            body: bottomNavigationBarList.elementAt(0),
             floatingActionButton: FloatingActionButton(
               onPressed: () {},
               child: const Icon(
